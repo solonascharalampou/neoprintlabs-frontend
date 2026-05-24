@@ -68,7 +68,7 @@ const BRANDS = [
   { id: "spotify", name: "Spotify", color: "#1DB954", bg: "#1DB954",
     icon: s => <svg viewBox="0 0 24 24" width={s} height={s} fill="white"><path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z"/></svg> },
   { id: "airbnb", name: "Airbnb", color: "#FF5A5F", bg: "#FF5A5F",
-    icon: s => <svg viewBox="0 0 24 24" width={s} height={s} fill="white"><path d="M11.985 14.278c-1.027-1.274-1.584-2.43-1.751-3.44-.096-.57-.066-1.05.072-1.47.245-.77.817-1.213 1.679-1.213.861 0 1.433.444 1.678 1.213.138.42.168.9.073 1.47-.168 1.011-.725 2.166-1.751 3.44zm9.357 1.563c.035.97-.504 1.823-1.488 2.34-.913.483-2.192.674-3.725.545-1.24-.105-2.673-.497-4.144-1.133-1.47.636-2.904 1.028-4.144 1.133-1.533.13-2.812-.062-3.725-.544-.984-.518-1.523-1.372-1.488-2.341.021-.602.25-1.303.799-2.125.647-.97 1.73-2.044 3.311-3.186-.264-.788-.403-1.553-.403-2.295 0-1.89.894-3.378 2.514-4.19.667-.33 1.384-.497 2.136-.497 2.47 0 4.056 1.574 4.056 4.005 0 .834-.148 1.685-.455 2.54l-.003.008c1.524 1.116 2.573 2.173 3.212 3.13.55.822.778 1.523.799 2.125-.001.162-.004.32-.002.485z"/></svg> },
+    icon: s => <svg viewBox="0 0 32 32" width={s} height={s} fill="white"><path d="M16 2C8.268 2 2 8.268 2 16s6.268 14 14 14 14-6.268 14-14S23.732 2 16 2zm0 4c1.1 0 2 .9 2 2s-.9 2-2 2-2-.9-2-2 .9-2 2-2zm-4 6.5c.828 0 1.5.672 1.5 1.5 0 .356-.125.682-.33.94.672.588 1.097 1.448 1.097 2.41v.008c0 .24-.033.47-.092.69.14.077.267.178.374.297.197.232.31.53.31.833 0 .75-.61 1.36-1.36 1.36-.39 0-.74-.168-1-.435-.26.267-.61.435-1 .435-.75 0-1.36-.61-1.36-1.36 0-.303.113-.601.31-.833.107-.12.234-.22.374-.297a2.49 2.49 0 01-.092-.69v-.008c0-.962.425-1.822 1.097-2.41a1.494 1.494 0 01-.33-.94c0-.828.672-1.5 1.5-1.5zm8 0c.828 0 1.5.672 1.5 1.5 0 .356-.125.682-.33.94.672.588 1.097 1.448 1.097 2.41v.008c0 .24-.033.47-.092.69.14.077.267.178.374.297.197.232.31.53.31.833 0 .75-.61 1.36-1.36 1.36-.39 0-.74-.168-1-.435-.26.267-.61.435-1 .435-.75 0-1.36-.61-1.36-1.36 0-.303.113-.601.31-.833.107-.12.234-.22.374-.297a2.49 2.49 0 01-.092-.69v-.008c0-.962.425-1.822 1.097-2.41a1.494 1.494 0 01-.33-.94c0-.828.672-1.5 1.5-1.5zm-4 3.5c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z"/></svg> },
   { id: "discord", name: "Discord", color: "#5865F2", bg: "#5865F2",
     icon: s => <svg viewBox="0 0 24 24" width={s} height={s} fill="white"><path d="M20.317 4.37a19.791 19.791 0 00-4.885-1.515.074.074 0 00-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 00-5.487 0 12.64 12.64 0 00-.617-1.25.077.077 0 00-.079-.037A19.736 19.736 0 003.677 4.37a.07.07 0 00-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 00.031.057 19.9 19.9 0 005.993 3.03.078.078 0 00.084-.028 14.09 14.09 0 001.226-1.994.076.076 0 00-.041-.106 13.107 13.107 0 01-1.872-.892.077.077 0 01-.008-.128 10.2 10.2 0 00.372-.292.074.074 0 01.077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 01.078.01c.12.098.246.198.373.292a.077.077 0 01-.006.127 12.299 12.299 0 01-1.873.892.077.077 0 00-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 00.084.028 19.839 19.839 0 006.002-3.03.077.077 0 00.032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 00-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z"/></svg> },
   { id: "telegram", name: "Telegram", color: "#2CA5E0", bg: "#2CA5E0",
@@ -76,7 +76,7 @@ const BRANDS = [
   { id: "reddit", name: "Reddit", color: "#FF4500", bg: "#FF4500",
     icon: s => <svg viewBox="0 0 24 24" width={s} height={s} fill="white"><path d="M12 0A12 12 0 000 12a12 12 0 0012 12 12 12 0 0012-12A12 12 0 0012 0zm5.01 4.744c.688 0 1.25.561 1.25 1.249a1.25 1.25 0 01-2.498.056l-2.597-.547-.8 3.747c1.824.07 3.48.632 4.674 1.488.308-.309.73-.491 1.207-.491.968 0 1.754.786 1.754 1.754 0 .716-.435 1.333-1.01 1.614a3.111 3.111 0 01.042.52c0 2.694-3.13 4.87-7.004 4.87-3.874 0-7.004-2.176-7.004-4.87 0-.183.015-.366.043-.534A1.748 1.748 0 014.028 12c0-.968.786-1.754 1.754-1.754.463 0 .898.196 1.207.49 1.207-.883 2.878-1.43 4.744-1.487l.885-4.182a.342.342 0 01.14-.197.35.35 0 01.238-.042l2.906.617a1.214 1.214 0 011.108-.701zM9.25 12C8.561 12 8 12.562 8 13.25c0 .687.561 1.248 1.25 1.248.687 0 1.248-.561 1.248-1.249 0-.688-.561-1.249-1.249-1.249zm5.5 0c-.687 0-1.248.561-1.248 1.25 0 .687.561 1.248 1.249 1.248.688 0 1.249-.561 1.249-1.249 0-.687-.562-1.249-1.25-1.249zm-5.466 3.99a.327.327 0 00-.231.094.33.33 0 000 .463c.842.842 2.484.913 2.961.913.477 0 2.105-.056 2.961-.913a.361.361 0 00.029-.463.33.33 0 00-.464 0c-.547.533-1.684.73-2.512.73-.828 0-1.979-.196-2.512-.73a.326.326 0 00-.232-.095z"/></svg> },
   { id: "threads", name: "Threads", color: "#000", bg: "#000",
-    icon: s => <svg viewBox="0 0 24 24" width={s} height={s} fill="white"><path d="M12.186 24h-.007c-3.581-.024-6.334-1.205-8.184-3.509C2.35 18.44 1.5 15.586 1.5 12.068V12c.024-6.462 4.29-10.5 10.704-10.5h.003c3.217.018 5.838 1.043 7.591 2.964.939 1.032 1.646 2.36 2.101 3.951L19.7 9a10.38 10.38 0 00-1.726-3.28C16.61 4.05 14.474 3.27 11.97 3.254c-5.225.002-8.937 3.456-8.957 9.015v.044c0 3.116.724 5.588 2.157 7.347C6.637 21.283 8.835 22.23 11.7 22.246c2.27.012 3.928-.55 5.178-1.712.908-.842 1.517-2.066 1.878-3.742h-5.75v-1.636h7.563l-.004.232c-.09 5.25-3.52 8.612-8.38 8.612z"/></svg> },
+    icon: s => <svg viewBox="0 0 192 192" width={s} height={s} fill="white"><path d="M141.537 88.988a66.667 66.667 0 00-2.518-1.143c-1.482-27.307-16.403-42.94-41.457-43.1h-.34c-14.986 0-27.449 6.396-35.12 18.036l13.779 9.452c5.73-8.695 14.724-10.548 21.348-10.548h.229c8.249.053 14.474 2.452 18.503 7.129 2.932 3.405 4.893 8.111 5.864 14.05-7.314-1.243-15.224-1.626-23.68-1.141-23.82 1.371-39.134 15.264-38.105 34.568.522 9.792 5.4 18.216 13.735 23.719 7.047 4.652 16.124 6.927 25.557 6.412 12.458-.683 22.231-5.436 29.049-14.127 5.178-6.6 8.453-15.153 9.899-25.93 5.937 3.583 10.337 8.298 12.767 13.966 4.132 9.635 4.373 25.468-8.546 38.376-11.319 11.308-24.925 16.2-45.488 16.351-22.809-.169-40.06-7.484-51.275-21.742C35.236 139.966 29.808 120.682 29.605 96c.203-24.682 5.63-43.966 16.133-57.317C57.044 24.425 74.296 17.11 97.104 16.94c22.975.17 40.526 7.52 52.171 21.847 5.71 7.026 9.986 15.961 12.787 26.57l16.137-4.284c-3.44-12.68-8.853-23.606-16.232-32.562C147.081 10.607 125.967 1.205 97.28 1 68.748 1.206 47.93 10.666 33.78 28.24 20.882 44.356 14.2 67.157 14 96c.2 28.843 6.883 51.644 19.78 67.76C47.93 181.334 68.748 190.794 97.28 191c25.813-.18 43.235-6.95 57.946-21.645 18.983-18.964 18.444-42.689 12.18-57.29-4.534-10.566-13.287-19.248-25.869-23.077z"/><path d="M85.597 143.256c-10.348-.602-16.024-5.072-16.38-12.197-.243-4.728 2.644-8.728 8.357-11.548 4.657-2.285 10.734-3.469 17.773-3.479a77.33 77.33 0 016.363.29c-.455 6.297-2.426 11.376-5.78 15.008-3.635 3.928-8.46 6.111-10.333 11.926z"/></svg> },
 ];
 
 const COLOURS = [
@@ -131,7 +131,7 @@ function LogoKeyring({ brand, colour, size = 180, rotate = 0, delay = "0s" }) {
 }
 
 /* ── NAV ────────────────────────────────────────────────────── */
-function Nav({ scrolled }) {
+function Nav({ scrolled, onTrack }) {
   const { mob } = useSize();
   const [open, setOpen] = useState(false);
   const links = [{ l:"Products", id:"brands" },{ l:"Customise", id:"customise" },{ l:"Pricing", id:"pricing" }];
@@ -176,6 +176,9 @@ function Nav({ scrolled }) {
               onMouseLeave={e=>e.target.style.color="#555"}
             >{l.l}</button>
           ))}
+          <button className="cta-outline" style={{ padding:"9px 18px", fontSize:13 }} onClick={onTrack}>
+            Track Order
+          </button>
           <button className="cta-dark" style={{ padding:"9px 22px", fontSize:13 }} onClick={()=>scrollTo("customise")}>
             Order Now
           </button>
@@ -571,33 +574,21 @@ function Customiser({ initBrand }) {
       });
       const data = await res.json();
       if (data.url) {
-        // Send order email with STL link
-        if (fileUrl) {
-          fetch("https://api.web3forms.com/submit", {
-            method: "POST",
-            headers: { "Content-Type": "application/json" },
-            body: JSON.stringify({
-              access_key: "ce8fd7a4-14a4-4a44-a1d7-ccac58240d1c",
-              to: "solonascharalampous@gmail.com",
-              subject: `🛒 New Order — ${brand.name} ×${qty} (${size.label})`,
-              message: [
-                "NEW ORDER — NeoPrintLabs",
-                "━━━━━━━━━━━━━━━━━━━━━━",
-                `Platform:  ${brand.name}`,
-                `Size:      ${size.label} (${size.dim} · ${size.thickness})`,
-                `Colour:    ${colour}`,
-                `Quantity:  ${qty}`,
-                `NFC:       ${nfc ? `Yes — ${url||"URL not set"}` : "No"}`,
-                `Total:     €${total}`,
-                "━━━━━━━━━━━━━━━━━━━━━━",
-                `STL FILE:  ${fileUrl}`,
-                "(Download link valid 14 days)",
-              ].join("\n"),
-            }),
-          }).catch(()=>{});
-        }
-        window.open(data.url, "_blank");
-        setPayDone(true);
+        // Save order details so we can email after payment
+        sessionStorage.setItem("npl_order", JSON.stringify({
+          brand: brand.name,
+          brandId: brand.id,
+          size: size.label,
+          dim: size.dim,
+          thickness: size.thickness,
+          colour,
+          qty,
+          nfc,
+          url,
+          total,
+          fileUrl,
+        }));
+        window.location.href = data.url;
       } else {
         setGenStatus("Payment error — please try again.");
       }
@@ -1088,11 +1079,11 @@ function CTA() {
 }
 
 /* ── FOOTER ─────────────────────────────────────────────────── */
-function Footer() {
+function Footer({ onTrack }) {
   const { mob, tab } = useSize();
   const cols = [
     { t:"Products", ls:["Business Cards","Product Tags","Event Keyrings","Custom Orders","Bulk Orders"] },
-    { t:"Services", ls:["3D Printing","NFC Programming","Custom Modelling","Sample Orders","Get a Quote"] },
+    { t:"Services", ls:["3D Printing","NFC Programming","Custom Modelling","Sample Orders","Track Order"] },
     { t:"Company",  ls:["About Us","Blog","Careers","Press","Contact"] },
   ];
   return (
@@ -1135,7 +1126,7 @@ function Footer() {
               <div style={{ fontSize:10, color:"#333", fontWeight:700, letterSpacing:".18em", marginBottom:16 }}>{col.t.toUpperCase()}</div>
               <div style={{ display:"flex", flexDirection:"column", gap:10 }}>
                 {col.ls.map(l=>(
-                  <a key={l} href="#" onClick={e=>e.preventDefault()} style={{ fontSize:13, color:"#444", transition:"color .2s", display:"block", fontWeight:300 }}
+                  <a key={l} href="#" onClick={e=>{e.preventDefault();if(l==="Track Order"&&onTrack)onTrack();}} style={{ fontSize:13, color:"#444", transition:"color .2s", display:"block", fontWeight:300 }}
                     onMouseEnter={e=>e.target.style.color="#fff"}
                     onMouseLeave={e=>e.target.style.color="#444"}
                   >{l}</a>
@@ -1159,20 +1150,562 @@ function Footer() {
 }
 
 /* ── APP ────────────────────────────────────────────────────── */
+/* ── SUPABASE ────────────────────────────────────────────────── */
+const SUPABASE_URL = "https://wxeekpusreksampwazvm.supabase.co";
+const SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Ind4ZWVrcHVzcmVrc2FtcHdhenZtIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Nzk2MDkzNzQsImV4cCI6MjA5NTE4NTM3NH0.QL61D0YJCOhi7VFGyD1aHFIvuosMUF7L7vCnbEbfvR4";
+const ADMIN_PASSWORD = "neoprintlabs2025";
+
+const sbFetch = async (endpoint, options = {}) => {
+  const res = await fetch(`${SUPABASE_URL}/rest/v1/${endpoint}`, {
+    ...options,
+    headers: {
+      "apikey": SUPABASE_KEY,
+      "Authorization": `Bearer ${SUPABASE_KEY}`,
+      "Content-Type": "application/json",
+      "Prefer": options.prefer || "return=representation",
+      ...(options.headers || {}),
+    },
+  });
+  if (!res.ok) throw new Error(await res.text());
+  const text = await res.text();
+  return text ? JSON.parse(text) : null;
+};
+
+const generateOrderNumber = () => {
+  const chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+  return "NPL-" + Array.from({length:6}, ()=>chars[Math.floor(Math.random()*chars.length)]).join("");
+};
+
+/* ── STATUS COLORS ───────────────────────────────────────────── */
+const STATUS_CONFIG = {
+  "Payment Confirmed": { color:"#f59e0b", bg:"#fef3c7", icon:"💳" },
+  "Printing":          { color:"#3b82f6", bg:"#dbeafe", icon:"🖨️" },
+  "Quality Check":     { color:"#8b5cf6", bg:"#ede9fe", icon:"🔍" },
+  "Shipped":           { color:"#10b981", bg:"#d1fae5", icon:"📦" },
+  "Delivered":         { color:"#059669", bg:"#a7f3d0", icon:"✅" },
+  "Issue":             { color:"#ef4444", bg:"#fee2e2", icon:"⚠️" },
+};
+
+/* ── CUSTOMER PORTAL ─────────────────────────────────────────── */
+function CustomerPortal({ onClose }) {
+  const { mob } = useSize();
+  const [step, setStep] = useState("search"); // search | result
+  const [orderNum, setOrderNum] = useState("");
+  const [email, setEmail] = useState("");
+  const [order, setOrder] = useState(null);
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState("");
+  const [message, setMessage] = useState("");
+  const [msgSent, setMsgSent] = useState(false);
+
+  const search = async () => {
+    if (!orderNum.trim()) { setError("Please enter your order number."); return; }
+    setLoading(true); setError("");
+    try {
+      const data = await sbFetch(`orders?order_number=eq.${orderNum.trim().toUpperCase()}&select=*`);
+      if (!data || data.length === 0) { setError("Order not found. Check your order number and try again."); }
+      else { setOrder(data[0]); setStep("result"); }
+    } catch(e) { setError("Could not connect. Please try again."); }
+    setLoading(false);
+  };
+
+  const sendMessage = async () => {
+    if (!message.trim()) return;
+    try {
+      await fetch("https://api.web3forms.com/submit", {
+        method: "POST", headers: {"Content-Type":"application/json"},
+        body: JSON.stringify({
+          access_key: "ce8fd7a4-14a4-4a44-a1d7-ccac58240d1c",
+          to: "solonascharalampous@gmail.com",
+          subject: `💬 Customer Message — Order ${order.order_number}`,
+          message: `Order: ${order.order_number}\nPlatform: ${order.platform}\nMessage:\n${message}`,
+        }),
+      });
+      setMsgSent(true); setMessage("");
+    } catch(e) {}
+  };
+
+  const statuses = Object.keys(STATUS_CONFIG);
+  const currentIdx = order ? statuses.indexOf(order.status) : 0;
+
+  const I = ({ style={} }) => (
+    <div style={{ position:"fixed", inset:0, background:"rgba(0,0,0,0.5)", zIndex:2000, display:"flex", alignItems:"center", justifyContent:"center", padding:20, ...style }}>
+      <div style={{ background:"#fff", borderRadius:16, width:"100%", maxWidth:540, maxHeight:"90vh", overflowY:"auto", padding: mob?"24px":"40px", position:"relative" }}>
+        <button onClick={onClose} style={{ position:"absolute", top:16, right:16, background:"#f5f5f5", border:"none", borderRadius:"50%", width:32, height:32, cursor:"pointer", fontSize:16 }}>×</button>
+
+        {step === "search" ? (
+          <>
+            <h2 style={{ fontFamily:"'Outfit',sans-serif", fontWeight:800, fontSize:26, color:"#0a0a0a", marginBottom:8 }}>Track Your Order</h2>
+            <p style={{ fontSize:14, color:"#888", marginBottom:28, fontWeight:300 }}>Enter your order number from your confirmation email.</p>
+            <div style={{ display:"flex", flexDirection:"column", gap:12 }}>
+              <input value={orderNum} onChange={e=>setOrderNum(e.target.value.toUpperCase())}
+                placeholder="e.g. NPL-ABC123"
+                onKeyDown={e=>e.key==="Enter"&&search()}
+                style={{ padding:"12px 16px", borderRadius:8, border:"1.5px solid #e8e8e8", fontSize:15, outline:"none", fontFamily:"monospace", letterSpacing:".1em" }}
+                onFocus={e=>e.target.style.borderColor="#0a0a0a"}
+                onBlur={e=>e.target.style.borderColor="#e8e8e8"}
+              />
+              {error && <div style={{ fontSize:13, color:"#ef4444" }}>{error}</div>}
+              <button className="cta-dark" onClick={search} disabled={loading} style={{ padding:"13px", fontSize:15 }}>
+                {loading ? "Searching…" : "Track Order →"}
+              </button>
+            </div>
+          </>
+        ) : order ? (
+          <>
+            <div style={{ display:"flex", justifyContent:"space-between", alignItems:"flex-start", marginBottom:24 }}>
+              <div>
+                <div style={{ fontFamily:"'Outfit',sans-serif", fontWeight:800, fontSize:22, color:"#0a0a0a" }}>{order.order_number}</div>
+                <div style={{ fontSize:13, color:"#888", marginTop:2 }}>Placed {new Date(order.created_at).toLocaleDateString("en-GB", {day:"numeric",month:"long",year:"numeric"})}</div>
+              </div>
+              <div style={{ background: STATUS_CONFIG[order.status]?.bg || "#f5f5f5", color: STATUS_CONFIG[order.status]?.color || "#888", padding:"6px 14px", borderRadius:20, fontSize:13, fontWeight:600 }}>
+                {STATUS_CONFIG[order.status]?.icon} {order.status}
+              </div>
+            </div>
+
+            {/* Timeline */}
+            <div style={{ marginBottom:24 }}>
+              {statuses.filter(s=>s!=="Issue").map((s,i)=>{
+                const done = i <= currentIdx && order.status !== "Issue";
+                const current = s === order.status;
+                const cfg = STATUS_CONFIG[s];
+                return (
+                  <div key={s} style={{ display:"flex", gap:12, marginBottom:i<statuses.filter(x=>x!=="Issue").length-1?0:0 }}>
+                    <div style={{ display:"flex", flexDirection:"column", alignItems:"center" }}>
+                      <div style={{ width:32, height:32, borderRadius:"50%", background: done?cfg.color:"#f0f0f0", display:"flex", alignItems:"center", justifyContent:"center", fontSize:14, flexShrink:0, border: current?`3px solid ${cfg.color}`:"none", transition:"all .3s" }}>
+                        {done ? "✓" : "○"}
+                      </div>
+                      {i < statuses.filter(x=>x!=="Issue").length-1 && <div style={{ width:2, height:24, background: done?"#0a0a0a":"#f0f0f0", margin:"2px 0" }}/>}
+                    </div>
+                    <div style={{ paddingTop:6, paddingBottom:i<statuses.filter(x=>x!=="Issue").length-1?24:0 }}>
+                      <div style={{ fontFamily:"'Outfit',sans-serif", fontWeight:600, fontSize:14, color: done?"#0a0a0a":"#aaa" }}>{cfg.icon} {s}</div>
+                      {current && order.estimated_delivery && <div style={{ fontSize:12, color:"#888", marginTop:2 }}>Est. {order.estimated_delivery}</div>}
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+
+            {/* Order details */}
+            <div style={{ background:"#f7f7f7", borderRadius:10, padding:"16px 18px", marginBottom:20 }}>
+              <div style={{ fontFamily:"'Outfit',sans-serif", fontWeight:700, fontSize:12, color:"#aaa", letterSpacing:".1em", marginBottom:12 }}>ORDER DETAILS</div>
+              {[
+                ["Platform", order.platform],
+                ["Size", `${order.size} (${order.dimensions})`],
+                ["Colour", order.colour],
+                ["Quantity", order.quantity],
+                ["NFC", order.nfc ? "Yes" : "No"],
+                ["Total", `€${order.total}`],
+                ...(order.tracking_number ? [["Tracking", order.tracking_number]] : []),
+              ].map(([k,v])=>(
+                <div key={k} style={{ display:"flex", justifyContent:"space-between", marginBottom:8, fontSize:14 }}>
+                  <span style={{ color:"#888" }}>{k}</span>
+                  <span style={{ fontWeight:500, color:"#0a0a0a" }}>{v}</span>
+                </div>
+              ))}
+            </div>
+
+            {/* Contact */}
+            <div style={{ borderTop:"1px solid #f0f0f0", paddingTop:20 }}>
+              <div style={{ fontFamily:"'Outfit',sans-serif", fontWeight:700, fontSize:13, color:"#0a0a0a", marginBottom:10 }}>Have a question?</div>
+              {msgSent ? (
+                <div style={{ fontSize:13, color:"#10b981", fontWeight:600 }}>✓ Message sent! We'll get back to you soon.</div>
+              ) : (
+                <div style={{ display:"flex", flexDirection:"column", gap:8 }}>
+                  <textarea value={message} onChange={e=>setMessage(e.target.value)} placeholder="Type your message…" rows={3}
+                    style={{ padding:"10px 12px", borderRadius:8, border:"1.5px solid #e8e8e8", fontSize:13, resize:"none", outline:"none", fontFamily:"'DM Sans',sans-serif" }}/>
+                  <button className="cta-dark" onClick={sendMessage} style={{ padding:"10px", fontSize:13 }}>Send Message</button>
+                </div>
+              )}
+            </div>
+
+            <button onClick={()=>setStep("search")} style={{ marginTop:16, background:"none", border:"none", fontSize:13, color:"#aaa", cursor:"pointer" }}>← Search another order</button>
+          </>
+        ) : null}
+      </div>
+    </div>
+  );
+
+  return <I/>;
+}
+
+/* ── ADMIN PORTAL ────────────────────────────────────────────── */
+function AdminPortal({ onClose }) {
+  const { mob } = useSize();
+  const [authed, setAuthed] = useState(false);
+  const [pw, setPw] = useState("");
+  const [pwError, setPwError] = useState("");
+  const [orders, setOrders] = useState([]);
+  const [loading, setLoading] = useState(false);
+  const [selected, setSelected] = useState(null);
+  const [filter, setFilter] = useState("All");
+  const [search, setSearch] = useState("");
+  const [saving, setSaving] = useState(false);
+  const [msgText, setMsgText] = useState("");
+  const [msgSent, setMsgSent] = useState(false);
+
+  const login = () => {
+    if (pw === ADMIN_PASSWORD) { setAuthed(true); loadOrders(); }
+    else { setPwError("Wrong password."); }
+  };
+
+  const loadOrders = async () => {
+    setLoading(true);
+    try {
+      const data = await sbFetch("orders?select=*&order=created_at.desc");
+      setOrders(data || []);
+    } catch(e) { console.error(e); }
+    setLoading(false);
+  };
+
+  const updateOrder = async (id, updates) => {
+    setSaving(true);
+    try {
+      await sbFetch(`orders?id=eq.${id}`, { method:"PATCH", body:JSON.stringify(updates), prefer:"return=representation" });
+      setOrders(prev => prev.map(o => o.id===id ? {...o,...updates} : o));
+      if (selected?.id===id) setSelected(prev=>({...prev,...updates}));
+    } catch(e) { console.error(e); }
+    setSaving(false);
+  };
+
+  const sendMsg = async () => {
+    if (!msgText.trim() || !selected) return;
+    try {
+      await fetch("https://api.web3forms.com/submit", {
+        method:"POST", headers:{"Content-Type":"application/json"},
+        body: JSON.stringify({
+          access_key: "ce8fd7a4-14a4-4a44-a1d7-ccac58240d1c",
+          to: selected.customer_email || "solonascharalampous@gmail.com",
+          subject: `Update on your NeoPrintLabs order ${selected.order_number}`,
+          message: `Hi ${selected.customer_name||"there"},\n\n${msgText}\n\nOrder: ${selected.order_number}\n\nBest,\nNeoPrintLabs`,
+        }),
+      });
+      const note = `[${new Date().toLocaleDateString()}] Messaged: ${msgText}`;
+      await updateOrder(selected.id, { admin_notes: selected.admin_notes ? selected.admin_notes + "\n" + note : note });
+      setMsgSent(true); setMsgText("");
+      setTimeout(()=>setMsgSent(false), 3000);
+    } catch(e) {}
+  };
+
+  const filtered = orders.filter(o => {
+    const matchFilter = filter==="All" || o.status===filter;
+    const matchSearch = !search || o.order_number?.toLowerCase().includes(search.toLowerCase()) || o.platform?.toLowerCase().includes(search.toLowerCase()) || o.customer_email?.toLowerCase().includes(search.toLowerCase());
+    return matchFilter && matchSearch;
+  });
+
+  const stats = {
+    total: orders.length,
+    revenue: orders.reduce((s,o)=>s+(parseFloat(o.total)||0),0).toFixed(2),
+    printing: orders.filter(o=>o.status==="Printing").length,
+    shipped: orders.filter(o=>o.status==="Shipped").length,
+  };
+
+  return (
+    <div style={{ position:"fixed", inset:0, background:"#0a0a0a", zIndex:2000, overflowY:"auto" }}>
+      {!authed ? (
+        <div style={{ minHeight:"100vh", display:"flex", alignItems:"center", justifyContent:"center", padding:24 }}>
+          <div style={{ background:"#141414", borderRadius:16, padding:40, width:"100%", maxWidth:380, border:"1px solid #222" }}>
+            <div style={{ fontFamily:"'Outfit',sans-serif", fontWeight:800, fontSize:24, color:"#fff", marginBottom:4 }}>Admin Portal</div>
+            <div style={{ fontSize:13, color:"#555", marginBottom:28 }}>NeoPrintLabs</div>
+            <input type="password" value={pw} onChange={e=>setPw(e.target.value)} onKeyDown={e=>e.key==="Enter"&&login()}
+              placeholder="Password"
+              style={{ width:"100%", padding:"12px 16px", borderRadius:8, border:"1.5px solid #222", background:"#1a1a1a", color:"#fff", fontSize:14, outline:"none", boxSizing:"border-box", marginBottom:8 }}/>
+            {pwError && <div style={{ fontSize:12, color:"#ef4444", marginBottom:8 }}>{pwError}</div>}
+            <button onClick={login} style={{ width:"100%", padding:13, background:"#fff", color:"#0a0a0a", border:"none", borderRadius:8, fontFamily:"'Outfit',sans-serif", fontWeight:700, fontSize:15, cursor:"pointer" }}>
+              Login →
+            </button>
+            <button onClick={onClose} style={{ width:"100%", marginTop:10, padding:10, background:"transparent", color:"#444", border:"none", cursor:"pointer", fontSize:13 }}>Cancel</button>
+          </div>
+        </div>
+      ) : (
+        <div style={{ display:"flex", flexDirection: mob?"column":"row", minHeight:"100vh" }}>
+
+          {/* Sidebar */}
+          <div style={{ width: mob?"100%":280, background:"#0a0a0a", borderRight:"1px solid #1a1a1a", padding:"24px 20px", flexShrink:0 }}>
+            <div style={{ display:"flex", justifyContent:"space-between", alignItems:"center", marginBottom:28 }}>
+              <div>
+                <div style={{ fontFamily:"'Outfit',sans-serif", fontWeight:800, fontSize:18, color:"#fff" }}>Admin</div>
+                <div style={{ fontSize:11, color:"#444", marginTop:2 }}>NeoPrintLabs</div>
+              </div>
+              <button onClick={onClose} style={{ background:"#1a1a1a", border:"none", color:"#666", borderRadius:8, padding:"6px 10px", cursor:"pointer", fontSize:12 }}>Exit</button>
+            </div>
+
+            {/* Stats */}
+            <div style={{ display:"grid", gridTemplateColumns:"1fr 1fr", gap:8, marginBottom:24 }}>
+              {[["Orders",stats.total],["Revenue",`€${stats.revenue}`],["Printing",stats.printing],["Shipped",stats.shipped]].map(([l,v])=>(
+                <div key={l} style={{ background:"#141414", borderRadius:8, padding:"12px", border:"1px solid #1e1e1e" }}>
+                  <div style={{ fontSize:10, color:"#444", letterSpacing:".1em" }}>{l.toUpperCase()}</div>
+                  <div style={{ fontFamily:"'Outfit',sans-serif", fontWeight:700, fontSize:18, color:"#fff", marginTop:2 }}>{v}</div>
+                </div>
+              ))}
+            </div>
+
+            {/* Filter */}
+            <div style={{ fontSize:10, color:"#444", letterSpacing:".1em", marginBottom:10 }}>FILTER BY STATUS</div>
+            <div style={{ display:"flex", flexDirection:"column", gap:4 }}>
+              {["All",...Object.keys(STATUS_CONFIG)].map(s=>(
+                <button key={s} onClick={()=>setFilter(s)} style={{
+                  background: filter===s?"#1e1e1e":"transparent",
+                  border:"none", color: filter===s?"#fff":"#444",
+                  padding:"8px 12px", borderRadius:6, textAlign:"left",
+                  fontFamily:"'Outfit',sans-serif", fontSize:13, cursor:"pointer",
+                  display:"flex", alignItems:"center", gap:8,
+                }}>
+                  {STATUS_CONFIG[s]?.icon||"📋"} {s}
+                  <span style={{ marginLeft:"auto", fontSize:11, color:"#444" }}>
+                    {s==="All"?orders.length:orders.filter(o=>o.status===s).length}
+                  </span>
+                </button>
+              ))}
+            </div>
+
+            <button onClick={loadOrders} style={{ marginTop:16, width:"100%", padding:"8px", background:"transparent", border:"1px solid #222", color:"#444", borderRadius:6, cursor:"pointer", fontSize:12, fontFamily:"'Outfit',sans-serif" }}>
+              ↻ Refresh
+            </button>
+          </div>
+
+          {/* Main */}
+          <div style={{ flex:1, display:"flex", flexDirection:"column", overflow:"hidden" }}>
+
+            {/* Search bar */}
+            <div style={{ padding:"16px 20px", borderBottom:"1px solid #1a1a1a", background:"#0a0a0a" }}>
+              <input value={search} onChange={e=>setSearch(e.target.value)}
+                placeholder="Search by order number, platform or email…"
+                style={{ width:"100%", padding:"10px 14px", borderRadius:8, border:"1px solid #1e1e1e", background:"#141414", color:"#fff", fontSize:13, outline:"none", boxSizing:"border-box" }}/>
+            </div>
+
+            <div style={{ display:"flex", flex:1, overflow:"hidden" }}>
+
+              {/* Orders list */}
+              <div style={{ width: mob||!selected?undefined:320, flex: !selected?1:undefined, overflowY:"auto", borderRight: selected?"1px solid #1a1a1a":"none" }}>
+                {loading ? (
+                  <div style={{ padding:40, textAlign:"center", color:"#444" }}>Loading…</div>
+                ) : filtered.length===0 ? (
+                  <div style={{ padding:40, textAlign:"center", color:"#444" }}>No orders found</div>
+                ) : filtered.map(o=>{
+                  const cfg = STATUS_CONFIG[o.status]||{};
+                  return (
+                    <div key={o.id} onClick={()=>setSelected(o)} style={{
+                      padding:"16px 20px", borderBottom:"1px solid #111",
+                      cursor:"pointer", background: selected?.id===o.id?"#141414":"transparent",
+                      transition:"background .15s",
+                    }}>
+                      <div style={{ display:"flex", justifyContent:"space-between", alignItems:"flex-start", marginBottom:6 }}>
+                        <div style={{ fontFamily:"'Outfit',sans-serif", fontWeight:700, fontSize:14, color:"#fff" }}>{o.order_number}</div>
+                        <div style={{ fontSize:11, padding:"2px 8px", borderRadius:10, background: cfg.bg||"#222", color: cfg.color||"#888", fontWeight:600, whiteSpace:"nowrap" }}>
+                          {cfg.icon} {o.status}
+                        </div>
+                      </div>
+                      <div style={{ fontSize:12, color:"#555" }}>{o.platform} · {o.size} · ×{o.quantity}</div>
+                      <div style={{ fontSize:12, color:"#444", marginTop:4, display:"flex", justifyContent:"space-between" }}>
+                        <span>€{o.total}</span>
+                        <span>{new Date(o.created_at).toLocaleDateString("en-GB")}</span>
+                      </div>
+                    </div>
+                  );
+                })}
+              </div>
+
+              {/* Order detail */}
+              {selected && (
+                <div style={{ flex:1, overflowY:"auto", padding:"24px 20px" }}>
+                  <div style={{ display:"flex", justifyContent:"space-between", alignItems:"center", marginBottom:24 }}>
+                    <div>
+                      <div style={{ fontFamily:"'Outfit',sans-serif", fontWeight:800, fontSize:20, color:"#fff" }}>{selected.order_number}</div>
+                      <div style={{ fontSize:12, color:"#444", marginTop:2 }}>{new Date(selected.created_at).toLocaleString("en-GB")}</div>
+                    </div>
+                    <button onClick={()=>setSelected(null)} style={{ background:"#1a1a1a", border:"none", color:"#666", borderRadius:6, padding:"6px 10px", cursor:"pointer" }}>✕</button>
+                  </div>
+
+                  {/* Status update */}
+                  <div style={{ background:"#141414", borderRadius:10, padding:"16px", marginBottom:16, border:"1px solid #1e1e1e" }}>
+                    <div style={{ fontSize:11, color:"#444", letterSpacing:".1em", marginBottom:10 }}>UPDATE STATUS</div>
+                    <div style={{ display:"flex", gap:6, flexWrap:"wrap" }}>
+                      {Object.keys(STATUS_CONFIG).map(s=>(
+                        <button key={s} onClick={()=>updateOrder(selected.id,{status:s})} style={{
+                          padding:"6px 12px", borderRadius:6, fontSize:12, cursor:"pointer",
+                          background: selected.status===s ? STATUS_CONFIG[s].color : "#1e1e1e",
+                          color: selected.status===s ? "#fff" : "#666",
+                          border:"none", fontFamily:"'Outfit',sans-serif", fontWeight:600,
+                          transition:"all .15s",
+                        }}>{STATUS_CONFIG[s].icon} {s}</button>
+                      ))}
+                    </div>
+                  </div>
+
+                  {/* Order info */}
+                  <div style={{ background:"#141414", borderRadius:10, padding:"16px", marginBottom:16, border:"1px solid #1e1e1e" }}>
+                    <div style={{ fontSize:11, color:"#444", letterSpacing:".1em", marginBottom:10 }}>ORDER INFO</div>
+                    {[
+                      ["Platform", selected.platform],
+                      ["Size", `${selected.size} (${selected.dimensions})`],
+                      ["Colour", selected.colour],
+                      ["Quantity", selected.quantity],
+                      ["NFC", selected.nfc?"Yes":"No"],
+                      ["Total", `€${selected.total}`],
+                      ["Customer", selected.customer_email||"Not provided"],
+                    ].map(([k,v])=>(
+                      <div key={k} style={{ display:"flex", justifyContent:"space-between", marginBottom:8, fontSize:13 }}>
+                        <span style={{ color:"#555" }}>{k}</span>
+                        <span style={{ color:"#ccc", fontWeight:500 }}>{v}</span>
+                      </div>
+                    ))}
+                    {selected.stl_url && (
+                      <a href={selected.stl_url} target="_blank" rel="noreferrer" style={{ display:"block", marginTop:10, padding:"8px 12px", background:"#1e1e1e", borderRadius:6, color:"#fff", fontSize:12, fontWeight:600, textDecoration:"none", textAlign:"center" }}>
+                        ⬇️ Download STL File
+                      </a>
+                    )}
+                  </div>
+
+                  {/* Tracking */}
+                  <div style={{ background:"#141414", borderRadius:10, padding:"16px", marginBottom:16, border:"1px solid #1e1e1e" }}>
+                    <div style={{ fontSize:11, color:"#444", letterSpacing:".1em", marginBottom:10 }}>TRACKING & DELIVERY</div>
+                    <input value={selected.tracking_number||""} onChange={e=>setSelected(p=>({...p,tracking_number:e.target.value}))}
+                      placeholder="Tracking number"
+                      style={{ width:"100%", padding:"8px 10px", borderRadius:6, border:"1px solid #2a2a2a", background:"#1a1a1a", color:"#fff", fontSize:13, outline:"none", boxSizing:"border-box", marginBottom:8 }}/>
+                    <input value={selected.estimated_delivery||""} onChange={e=>setSelected(p=>({...p,estimated_delivery:e.target.value}))}
+                      placeholder="Estimated delivery (e.g. 28 May 2025)"
+                      style={{ width:"100%", padding:"8px 10px", borderRadius:6, border:"1px solid #2a2a2a", background:"#1a1a1a", color:"#fff", fontSize:13, outline:"none", boxSizing:"border-box", marginBottom:8 }}/>
+                    <button onClick={()=>updateOrder(selected.id,{tracking_number:selected.tracking_number,estimated_delivery:selected.estimated_delivery})}
+                      disabled={saving}
+                      style={{ width:"100%", padding:"8px", background:"#fff", color:"#0a0a0a", border:"none", borderRadius:6, cursor:"pointer", fontFamily:"'Outfit',sans-serif", fontWeight:600, fontSize:13 }}>
+                      {saving?"Saving…":"Save Tracking"}
+                    </button>
+                  </div>
+
+                  {/* Message customer */}
+                  <div style={{ background:"#141414", borderRadius:10, padding:"16px", marginBottom:16, border:"1px solid #1e1e1e" }}>
+                    <div style={{ fontSize:11, color:"#444", letterSpacing:".1em", marginBottom:10 }}>MESSAGE CUSTOMER</div>
+                    <textarea value={msgText} onChange={e=>setMsgText(e.target.value)} rows={3} placeholder="Type your message to the customer…"
+                      style={{ width:"100%", padding:"8px 10px", borderRadius:6, border:"1px solid #2a2a2a", background:"#1a1a1a", color:"#fff", fontSize:13, resize:"none", outline:"none", boxSizing:"border-box", marginBottom:8, fontFamily:"'DM Sans',sans-serif" }}/>
+                    <button onClick={sendMsg} style={{ width:"100%", padding:"8px", background: msgSent?"#10b981":"#635BFF", color:"#fff", border:"none", borderRadius:6, cursor:"pointer", fontFamily:"'Outfit',sans-serif", fontWeight:600, fontSize:13 }}>
+                      {msgSent?"✓ Sent!":"Send Email to Customer"}
+                    </button>
+                  </div>
+
+                  {/* Notes */}
+                  <div style={{ background:"#141414", borderRadius:10, padding:"16px", border:"1px solid #1e1e1e" }}>
+                    <div style={{ fontSize:11, color:"#444", letterSpacing:".1em", marginBottom:10 }}>ADMIN NOTES</div>
+                    <textarea value={selected.admin_notes||""} onChange={e=>setSelected(p=>({...p,admin_notes:e.target.value}))} rows={4}
+                      placeholder="Internal notes…"
+                      style={{ width:"100%", padding:"8px 10px", borderRadius:6, border:"1px solid #2a2a2a", background:"#1a1a1a", color:"#fff", fontSize:13, resize:"none", outline:"none", boxSizing:"border-box", marginBottom:8, fontFamily:"'DM Sans',sans-serif" }}/>
+                    <button onClick={()=>updateOrder(selected.id,{admin_notes:selected.admin_notes})}
+                      disabled={saving}
+                      style={{ width:"100%", padding:"8px", background:"#1e1e1e", color:"#fff", border:"none", borderRadius:6, cursor:"pointer", fontFamily:"'Outfit',sans-serif", fontWeight:600, fontSize:13 }}>
+                      {saving?"Saving…":"Save Notes"}
+                    </button>
+                  </div>
+                </div>
+              )}
+            </div>
+          </div>
+        </div>
+      )}
+    </div>
+  );
+}
+
+/* ── APP ─────────────────────────────────────────────────────── */
 export default function App() {
   const [scrolled, setScrolled] = useState(false);
   const [selectedBrand, setSelectedBrand] = useState(null);
+  const [paidSuccess, setPaidSuccess] = useState(false);
+  const [showCustomer, setShowCustomer] = useState(false);
+  const [showAdmin, setShowAdmin] = useState(false);
   useReveal();
+
   useEffect(() => {
     const fn = () => setScrolled(window.scrollY > 40);
     window.addEventListener("scroll", fn);
     return () => window.removeEventListener("scroll", fn);
   }, []);
 
+  useEffect(() => {
+    if (window.location.search.includes("paid=1")) {
+      setPaidSuccess(true);
+      try {
+        const order = JSON.parse(sessionStorage.getItem("npl_order") || "{}");
+        if (order.brand) {
+          // Save to Supabase
+          const orderNum = generateOrderNumber();
+          sbFetch("orders", {
+            method: "POST",
+            body: JSON.stringify({
+              order_number: orderNum,
+              platform: order.brand,
+              size: order.size,
+              dimensions: order.dim,
+              colour: order.colour,
+              quantity: order.qty,
+              nfc: order.nfc,
+              nfc_url: order.url || null,
+              total: parseFloat(order.total),
+              stl_url: order.fileUrl || null,
+              status: "Payment Confirmed",
+            }),
+          }).then(() => {
+            // Send confirmation email to admin
+            fetch("https://api.web3forms.com/submit", {
+              method:"POST", headers:{"Content-Type":"application/json"},
+              body: JSON.stringify({
+                access_key: "ce8fd7a4-14a4-4a44-a1d7-ccac58240d1c",
+                to: "solonascharalampous@gmail.com",
+                subject: `✅ New Order ${orderNum} — ${order.brand} ×${order.qty}`,
+                message: [
+                  `✅ NEW ORDER — ${orderNum}`,
+                  "━━━━━━━━━━━━━━━━━━━━━━",
+                  `Platform:  ${order.brand}`,
+                  `Size:      ${order.size} (${order.dim})`,
+                  `Colour:    ${order.colour}`,
+                  `Quantity:  ${order.qty}`,
+                  `NFC:       ${order.nfc?"Yes":"No"}`,
+                  `Total:     €${order.total}`,
+                  "━━━━━━━━━━━━━━━━━━━━━━",
+                  order.fileUrl ? `STL FILE:  ${order.fileUrl}` : "STL: not generated",
+                ].join("\n"),
+              }),
+            }).catch(()=>{});
+          }).catch(console.error);
+          sessionStorage.removeItem("npl_order");
+        }
+      } catch(e) {}
+      window.history.replaceState({}, "", window.location.pathname);
+    }
+    // Secret admin access via URL
+    if (window.location.search.includes("admin=1")) {
+      setShowAdmin(true);
+      window.history.replaceState({}, "", window.location.pathname);
+    }
+  }, []);
+
+  if (paidSuccess) return (
+    <div style={{ minHeight:"100vh", background:"#fff", display:"flex", alignItems:"center", justifyContent:"center", padding:"40px 24px" }}>
+      <Styles/>
+      <div style={{ textAlign:"center", maxWidth:480 }}>
+        <div style={{ fontSize:72, marginBottom:24 }}>🎉</div>
+        <h1 style={{ fontFamily:"'Outfit',sans-serif", fontWeight:800, fontSize:40, color:"#0a0a0a", marginBottom:16, letterSpacing:"-.03em" }}>Payment confirmed!</h1>
+        <p style={{ fontSize:16, color:"#888", lineHeight:1.75, fontWeight:300, marginBottom:12 }}>
+          Thank you for your order. We've received payment and will start printing immediately.
+        </p>
+        <p style={{ fontSize:14, color:"#aaa", lineHeight:1.7, marginBottom:36 }}>
+          Track your order anytime using the button below.
+        </p>
+        <div style={{ display:"flex", gap:12, justifyContent:"center", flexWrap:"wrap" }}>
+          <button className="cta-dark" style={{ fontSize:15, padding:"14px 36px" }} onClick={()=>{setPaidSuccess(false);setShowCustomer(true);}}>
+            Track My Order
+          </button>
+          <button className="cta-outline" style={{ fontSize:15, padding:"14px 36px" }} onClick={()=>setPaidSuccess(false)}>
+            Back to site
+          </button>
+        </div>
+      </div>
+    </div>
+  );
+
   return (
     <div style={{ background:"#fff", minHeight:"100vh", overflowX:"hidden" }}>
       <Styles />
-      <Nav scrolled={scrolled} />
+      <Nav scrolled={scrolled} onTrack={()=>setShowCustomer(true)} />
       <Hero />
       <BrandsGrid selected={selectedBrand} onSelect={setSelectedBrand} />
       <Customiser initBrand={selectedBrand} />
@@ -1180,7 +1713,9 @@ export default function App() {
       <Material />
       <Pricing />
       <CTA />
-      <Footer />
+      <Footer onTrack={()=>setShowCustomer(true)} />
+      {showCustomer && <CustomerPortal onClose={()=>setShowCustomer(false)} />}
+      {showAdmin && <AdminPortal onClose={()=>setShowAdmin(false)} />}
     </div>
   );
 }
